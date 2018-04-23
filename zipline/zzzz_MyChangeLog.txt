@@ -1,0 +1,9 @@
+#conda -V
+#conda 4.4.11
+#python -V
+#Python 3.5.2 :: Anaconda custom (64-bit)
+####Setup####
+conda install -c Quantopian zipline
+####Download cn stock holiday####from####https://github.com/rainx/cn_stock_holidays
+python setup.py install
+
